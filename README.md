@@ -11,7 +11,7 @@ I learnt a lot of react-native while doing this including:
 - best ways to upgrade a projects packages (which proves to be hard some times)
 - write clean react-native modules
 - changing the boilerplate
-* I did this multiple times, in the end it sped up the development process.
+  + I did this multiple times, in the end it sped up the development process.
 - optimize bits of code
 - much more...
 
