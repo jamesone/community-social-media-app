@@ -1,0 +1,51 @@
+{
+  "name": "App",
+  "version": "1.0.0-rc",
+  "description": "Community social media application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesone/community-social-media-app"
+  },
+  "author": "James Wainwright <jameswain10@gmail.com> (http://github.com/jamesone)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh",
+    "build-ios": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.ios.js --bundle-output iOS/main.jsbundle --platform 'ios' --assets-dest ./  --dev false --reset-cache",
+    "build-android": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.android.js --bundle-output iOS/main.jsbundle --platform 'android' --assets-dest ./  --dev false --reset-cache",
+    "reactotron": "node_modules/.bin/reactotron",
+    "android-setup-port": "adb reverse tcp:8081 tcp:8080"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=2 <4"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "lodash": "^4.11.1",
+    "react": "^15.0.2",
+    "react-native": "^0.26.1",
+    "react-native-admob": "^0.3.1",
+    "react-native-fbsdk": "^0.2.0",
+    "react-native-google-places-autocomplete": "https://github.com/jamesone/react-native-google-places-autocomplete",
+    "react-native-image-picker": "^0.13.5",
+    "react-native-maps": "^0.5.0",
+    "react-native-router-flux": "^3.22.22",
+    "react-native-vector-icons": "^2.0.2",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-persist": "^3.0.1",
+    "redux-thunk": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-plugin-import": "^1.6.0",
+    "eslint-plugin-jsx-a11y": "^1.0.3",
+    "eslint-plugin-react": "^5.0.1",
+    "file-loader": "^0.8.5",
+    "reactotron": "^0.6.1",
+    "remote-redux-devtools": "^0.3.0"
+  }
+}

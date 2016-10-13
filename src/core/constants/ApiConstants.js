@@ -1,0 +1,6 @@
+export const REFRESHING_FEED = 'REFRESHING_FEED'
+export const NEXT_URL_FEED = 'NEXT_URL_FEED'
+export const NORMAL_FEED = 'NORMAL_FEED'
+export const NORMAL_USER_FEED = 'NORMAL_USER_FEED'
+export const NEXT_URL_USER = 'NEXT_URL_USER'
+export const SET_USER_ID = 'SET_USER_ID'
