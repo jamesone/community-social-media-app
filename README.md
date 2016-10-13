@@ -14,7 +14,8 @@ I learnt a lot of react-native while doing this including:
   + I did this multiple times, in the end it sped up the development process.
 - optimize bits of code
 - much more...
-
+![Alt text](app_screenshots/home_feed.png?raw=true "Home feed")
+![Alt text](app_screenshots/home_feed_image.png?raw=true "Home feed with image")
 
 # What I learnt about react-native
 - It's really easy to prototype apps quickly, but when it comes to refining them and adding smaller details, the development time starts to slow down. 
