@@ -14,6 +14,8 @@ I learnt a lot of react-native while doing this including:
   + I did this multiple times, in the end it sped up the development process.
 - optimize bits of code
 - much more...
+
+# Home feed (Screenshots):
 ![Alt text](app_screenshots/home_feed.png?raw=true "Home feed")
 ![Alt text](app_screenshots/home_feed_image.png?raw=true "Home feed with image")
 
@@ -29,6 +31,14 @@ If you want to run this app you'll need the following frameworks put into the /i
 - FBSDKLoginKit.framework
 - FBSDKShareKit.framework
 
-
+# Home feed filter:
+![Alt text](app_screenshots/filter_home_feed.png?raw=true "Home feed filter component")
+# Map (each pin represents a post):
+![Alt text](app_screenshots/map_view.png?raw=true "Map page with pins")
+# User feed:
+There is suppose to be a profile image at the top. For some reason the media file wouldn't load.
+![Alt text](app_screenshots/user_feed.png?raw=true "User feed")
+#Post page (write a post):
+![Alt text](app_screenshots/post_page.png?raw=true "Write a post")
 
 
